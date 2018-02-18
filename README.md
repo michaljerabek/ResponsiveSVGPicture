@@ -16,7 +16,7 @@ Responsive `object-fit` and `object-position` SVG "polyfill".
     data-x1="img/320x200-x1.png" data-x2="img/320x200-x2.png"
 >
     <svg class="some-styles" role="img" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" overflow="hidden" aria-labelledby="title">
-    <title id="title">Title of the image</title>
+        <title id="title">Title of the image</title>
         <!--default image:-->
         <image xlink:href="img/320x200-x1.png" x="0" y="0" width="100%" height="100%"></image>
     </svg>
