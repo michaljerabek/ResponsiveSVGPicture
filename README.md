@@ -8,6 +8,7 @@ Responsive `object-fit` and `object-position` SVG "polyfill".
 ```html
 <script src="ResponsiveSVGPicture.js"></script>
 ```
+*IE9 requires polyfill for `matchMedia`.*
 
 2. Use `noscript`:
 ```html
@@ -44,4 +45,3 @@ Responsive `object-fit` and `object-position` SVG "polyfill".
 * `ResponsiveSVGPicture.AUTOLOAD`: initialize on `DOMContentLoaded` as `window.SVGPicture` (default: `true`)
 * `ResponsiveSVGPicture.RESIZE_TIMEOUT`: resize debounce timeout (default: `100`)
 * `ResponsiveSVGPicture.VIEWBOX_INTERVAL`: interval to check image dimensions to generate viewbox (default: `30`)
-
