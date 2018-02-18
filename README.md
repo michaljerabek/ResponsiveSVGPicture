@@ -16,7 +16,7 @@ Responsive `object-fit` and `object-position` SVG "polyfill".
     data-x1="img/320x200-x1.png" data-x2="img/320x200-x2.png"
 >
     <svg class="some-styles" role="img" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" overflow="hidden" aria-labelledby="title">
-        <title id="title">Pixel ratio only + viewbox</title>
+    <title id="title">Title of the image</title>
         <!--default image:-->
         <image xlink:href="img/320x200-x1.png" x="0" y="0" width="100%" height="100%"></image>
     </svg>
@@ -37,11 +37,11 @@ Responsive `object-fit` and `object-position` SVG "polyfill".
 ```
 
 ## Methods
-* `SVGPictures.refresh()` - refreshes everything
-* `SVGPictures.add(noscriptElement.svg-picture)` - processes new element
+* `window.SVGPicture.refresh()`: refreshes everything
+* `window.SVGPicture.add(noscriptElement.svg-picture)`: processes new element
 
 ## Options
-* `ResponsiveSVGPicture.AUTOLOAD` - initialize on `DOMContentLoaded` as `window.SVGPictures` (default: `true`)
-* `ResponsiveSVGPicture.RESIZE_TIMEOUT` - resize debouncing (default: `100`)
-* `ResponsiveSVGPicture.VIEWBOX_INTERVAL` - interval to generate viewbox (default: `30`)
+* `ResponsiveSVGPicture.AUTOLOAD`: initialize on `DOMContentLoaded` as `window.SVGPicture` (default: `true`)
+* `ResponsiveSVGPicture.RESIZE_TIMEOUT`: resize debounce timeout (default: `100`)
+* `ResponsiveSVGPicture.VIEWBOX_INTERVAL`: interval to check image dimensions to generate viewbox (default: `30`)
 
