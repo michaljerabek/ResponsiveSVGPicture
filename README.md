@@ -1,6 +1,6 @@
 # ResponsiveSVGPicture
 
-Responsive `object-fit` and `object-position` SVG "polyfill".
+Responsive SVG "polyfill" for `object-fit` and `object-position`.
 
 ## Basic usage
 
